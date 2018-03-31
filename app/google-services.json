@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "105778302864",
+    "firebase_url": "https://regitstrationapp.firebaseio.com",
+    "project_id": "regitstrationapp",
+    "storage_bucket": "regitstrationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105778302864:android:784a6bc43470b5b1",
+        "android_client_info": {
+          "package_name": "com.example.root.registrationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105778302864-d9d5ddnoe8ps8mgii589oprq57d8dccb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD183N4KHkZbMkZqSBuU9KfLSFYcQWDkHQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

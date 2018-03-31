@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.registrationapp.MainActivity"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/activty_main_textView"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_margin="50dp"
+        />
+
+    <EditText
+        android:id="@+id/activity_main_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_main_password"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp"
+        android:hint="@string/enter_the_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/activity_main_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp"
+        android:hint="@string/activity_main_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/activity_main_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activty_main_textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="37dp"
+        android:text="SignUp" />
+
+    <TextView
+        android:id="@+id/activty_main_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="87dp"
+        android:text="@string/login_register"
+        android:textSize="15sp" />
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_main_confirm"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Contact No" />
+
+
+</RelativeLayout>
